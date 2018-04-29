@@ -1,4 +1,7 @@
 import TransferFunction
+import PlotDraw
+import Window
+
 
 def read_dictionary():
     dictionary = {"b0": None, "a3": None, "a2": None, "a1": None, "a0": None }
@@ -11,6 +14,7 @@ def read_dictionary():
     return dictionary
 
 def main():
+    Window.mainwindow()
     dictionary = read_dictionary()
     tf = TransferFunction.TransferFunction(dictionary)
     pass

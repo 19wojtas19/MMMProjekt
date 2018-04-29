@@ -6,8 +6,8 @@ class Ifstatement:
         if data["a1"] * data["a2"] > data["a3"] * data["a0"]:               #Stabliny
             return 1
         if data["a1"] * data["a2"] == data["a3"] * data["a0"]:
-            return 0
-        return -1
+            return 0                                                        #Granica stabilności
+        return -1                                                           #Niestabilny
 
     @staticmethod
     def routh_stability_check(self, object):
