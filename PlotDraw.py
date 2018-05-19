@@ -5,7 +5,9 @@ initial_text = "t ** 2"
 
 
 def test():
-    plt.plot([1, 2], [1, 3])
+    X = [1, 2 ,3 ,4, 5, 6, 7]
+    Y = [2, 3, 4, 6, 7, 3 , 2]
+    plt.plot(X,Y)
 
     plt.show()
     pass

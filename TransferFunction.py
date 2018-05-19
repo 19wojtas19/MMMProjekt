@@ -15,3 +15,15 @@ class TransferFunction:
         if data is not None:
             self.data = data
             self.value_check()
+
+    @staticmethod
+    def read_dictionary( b0, a0, a1, a2, a3):
+        dictionary = {"b0": b0, "a3": a3, "a2": a2, "a1": a1, "a0": a0}
+        value = dictionary.values()
+        print("sector clear")
+        return dictionary
+
+    def state_model(self, jakiesrzeczy):
+        #A CO JA ROBIE TUUUUUUUUUUUUUUU                                                                          UUUUUUUU                                        CO TY TUTAJ ROBIIIIIIIIIIISZ
+        bonk = 0
+        return bonk
